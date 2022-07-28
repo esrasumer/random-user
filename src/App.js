@@ -72,7 +72,8 @@ const style={
                     <i className={icon}
                      key={index} 
                      onMouseOver={()=>activeLinkHandler(index)}
-                     style={activeLink === index ? style : null}                     ></i>
+                     style={activeLink === index ? style : null}
+                      ></i>
                      )
                 })}
               </div>
