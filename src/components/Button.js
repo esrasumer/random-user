@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({isActive,clicked})=> {
+const Button = ({ isActive, clicked, title }) => {
   return (
-<button onClick={clicked}>{isActive ? "Get onather user" : "Get User" }</button>  )
+    <button onClick={clicked}>{isActive ? title : "Get User"}</button>)
 }
 
 export default Button
